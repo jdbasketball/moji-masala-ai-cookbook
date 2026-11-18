@@ -85,7 +85,7 @@ python -m moji_demo evaluate
 
 The [GitHub Actions template](docs/github-actions/checks.yml) installs the optional SDKs and runs checks on Python 3.9 and 3.12 without provider secrets. It is supplied as a template because the publishing login lacks GitHub's `workflow` scope. An authorized owner can enable it by placing it at `.github/workflows/checks.yml`. Provider transport tests exercise the tool-call conversation without making paid API requests. The real-SDK transport tests are skipped if the SDK extras are absent in a local environment. These tests do not prove that a real provider account accepts the selected model or that a model's final wording is always accurate.
 
-At initial preparation on November 18, 2026, provider API keys were unavailable. Real OpenAI and Claude calls still need to be run with authorized credentials before describing the integration as live-verified. Record the model, date, request, tool result, and reviewed answer when doing that check.
+On November 18, 2026, the OpenAI live check reached the API but was blocked by exhausted project credits (`credit_balance_exhausted`). No model answer was generated. Claude live verification is pending its API key. Complete successful provider checks before describing either integration as live-verified; see the [verification record](docs/verification.md).
 
 ## Distribution and outcomes
 
