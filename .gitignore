@@ -1,0 +1,14 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+.pytest_cache/
+reports/*live*.json
+data/catalog.candidate.json
+BUILD_CONTRACT.md

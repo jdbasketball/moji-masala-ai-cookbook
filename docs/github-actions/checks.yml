@@ -1,0 +1,31 @@
+name: Offline checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e '.[providers]'
+      - name: Unit and provider transport tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate catalog
+        run: python -m moji_demo validate
+      - name: Evaluate recipe matching
+        run: python -m moji_demo evaluate

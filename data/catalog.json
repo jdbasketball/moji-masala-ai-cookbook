@@ -1,0 +1,1243 @@
+{
+  "schema_version": 1,
+  "brand": "moji masala®",
+  "verified_at": "2026-11-18",
+  "sources": [
+    "https://www.mojimasala.com/blogs/recipes/baingan-bharta-tzok-vangun",
+    "https://www.mojimasala.com/blogs/recipes/chicken-curry-chicken-rasedar",
+    "https://www.mojimasala.com/blogs/recipes/dahl-masala-recipe",
+    "https://www.mojimasala.com/blogs/recipes/garam-masala-burger-recipe",
+    "https://www.mojimasala.com/blogs/recipes/gobi-masala-in-under-45-minutes",
+    "https://www.mojimasala.com/blogs/recipes/kitchari",
+    "https://www.mojimasala.com/blogs/recipes/masala-wings-recipe",
+    "https://www.mojimasala.com/blogs/recipes/mushroom-masala",
+    "https://www.mojimasala.com/blogs/recipes/palak-masala",
+    "https://www.mojimasala.com/blogs/recipes/potato-curry-aloo-rasedar",
+    "https://www.mojimasala.com/blogs/recipes/rogan-josh",
+    "https://www.mojimasala.com/blogs/recipes/sweet-masala-chai-recipe",
+    "https://www.mojimasala.com/blogs/recipes/tandoori-style-chicken",
+    "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+    "https://www.mojimasala.com/pages/ai-shopping-guide",
+    "https://www.mojimasala.com/pages/salt-and-sodium-guide",
+    "https://www.mojimasala.com/products/aloo-rasedar-masala",
+    "https://www.mojimasala.com/products/baingan-masala",
+    "https://www.mojimasala.com/products/chicken-curry-masala",
+    "https://www.mojimasala.com/products/chicken-wings-masala",
+    "https://www.mojimasala.com/products/dahl-masala",
+    "https://www.mojimasala.com/products/fish-masala",
+    "https://www.mojimasala.com/products/gobi-masala",
+    "https://www.mojimasala.com/products/kashmiri-garam-masala",
+    "https://www.mojimasala.com/products/kitchari-masala",
+    "https://www.mojimasala.com/products/mushroom-masala",
+    "https://www.mojimasala.com/products/palak-masala",
+    "https://www.mojimasala.com/products/rogan-josh-masala",
+    "https://www.mojimasala.com/products/sweet-masala",
+    "https://www.mojimasala.com/products/tandoori-chicken-masala"
+  ],
+  "products": [
+    {
+      "id": "rogan-josh-masala",
+      "name": "Rogan Josh Masala",
+      "product_url": "https://www.mojimasala.com/products/rogan-josh-masala",
+      "aliases": [
+        "rogan josh",
+        "lamb curry",
+        "kashmiri lamb curry",
+        "beef curry",
+        "goat curry"
+      ],
+      "dish_types": [
+        "rogan josh",
+        "lamb",
+        "beef",
+        "goat"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "cumin seed",
+        "coriander seed",
+        "fennel seed",
+        "clove",
+        "cinnamon",
+        "black peppercorn",
+        "chili powder",
+        "garlic powder",
+        "ginger powder",
+        "turmeric powder",
+        "Himalayan Pink Salt"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": true,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/rogan-josh-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "chicken-curry-masala",
+      "name": "Chicken Curry Masala",
+      "product_url": "https://www.mojimasala.com/products/chicken-curry-masala",
+      "aliases": [
+        "chicken curry",
+        "chicken rasedar",
+        "chicken rasedaar"
+      ],
+      "dish_types": [
+        "chicken curry",
+        "chicken rasedar"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "cumin seed",
+        "black cardamom",
+        "green cardamom",
+        "black cumin seed",
+        "fennel seed",
+        "black peppercorn",
+        "clove",
+        "cinnamon",
+        "black peppercorn",
+        "red chili powder",
+        "garlic powder",
+        "ginger powder",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/chicken-curry-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "tandoori-chicken-masala",
+      "name": "Tandoori Chicken Masala",
+      "product_url": "https://www.mojimasala.com/products/tandoori-chicken-masala",
+      "aliases": [
+        "tandoori",
+        "tandoori chicken",
+        "tandoori masala",
+        "baked chicken",
+        "grilled indian chicken"
+      ],
+      "dish_types": [
+        "tandoori chicken"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "black cardamom",
+        "green cardamom",
+        "black peppercorn",
+        "clove",
+        "cinnamon",
+        "red chili powder",
+        "garlic powder",
+        "ginger powder",
+        "Himalayan Pink Salt"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": true,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/tandoori-chicken-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "chicken-wings-masala",
+      "name": "Chicken Wings Masala",
+      "product_url": "https://www.mojimasala.com/products/chicken-wings-masala",
+      "aliases": [
+        "masala wings",
+        "chicken wings",
+        "indian wings",
+        "spiced wings",
+        "wings"
+      ],
+      "dish_types": [
+        "chicken wings"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "garlic powder",
+        "ginger powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "none",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/chicken-wings-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation.",
+        "The AI Shopping Guide identifies the blend as having no chili heat; the wings recipe may add hot sauce. Do not infer heat of the finished dish from the blend alone."
+      ]
+    },
+    {
+      "id": "fish-masala",
+      "name": "Fish Masala",
+      "product_url": "https://www.mojimasala.com/products/fish-masala",
+      "aliases": [
+        "fish curry",
+        "masala fish",
+        "salmon",
+        "white fish",
+        "shellfish",
+        "shrimp"
+      ],
+      "dish_types": [
+        "fish",
+        "seafood"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "garlic powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "mild",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/fish-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation.",
+        "No executable recipe bundled: published fish cooking-temperature and timing guidance requires review. Link to the brand for current cooking guidance."
+      ]
+    },
+    {
+      "id": "aloo-rasedar-masala",
+      "name": "Aloo Rasedar Masala",
+      "product_url": "https://www.mojimasala.com/products/aloo-rasedar-masala",
+      "aliases": [
+        "aloo",
+        "aloo rasedar",
+        "potato curry",
+        "indian potato curry",
+        "potatoes"
+      ],
+      "dish_types": [
+        "potato curry",
+        "aloo rasedar"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "Cumin seed",
+        "black cardamom",
+        "green cardamom",
+        "clove",
+        "cinnamon",
+        "black peppercorn",
+        "black cumin seed",
+        "fennel seed",
+        "red chili powder",
+        "garlic powder",
+        "ginger powder",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/aloo-rasedar-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "gobi-masala",
+      "name": "Gobi Masala",
+      "product_url": "https://www.mojimasala.com/products/gobi-masala",
+      "aliases": [
+        "gobi",
+        "cauliflower",
+        "cauliflower curry",
+        "cabbage",
+        "patta gobi"
+      ],
+      "dish_types": [
+        "cauliflower curry",
+        "cabbage"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "red chili powder",
+        "garlic powder",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/gobi-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "palak-masala",
+      "name": "Palak Masala Indian Spinach Curry Spice Blend",
+      "product_url": "https://www.mojimasala.com/products/palak-masala",
+      "aliases": [
+        "palak",
+        "spinach",
+        "spinach curry",
+        "saag"
+      ],
+      "dish_types": [
+        "spinach curry",
+        "palak"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "garlic powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "mild",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/palak-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "baingan-masala",
+      "name": "Baingan Masala",
+      "product_url": "https://www.mojimasala.com/products/baingan-masala",
+      "aliases": [
+        "baingan",
+        "baingan bharta",
+        "eggplant",
+        "aubergine",
+        "tzok vangun",
+        "eggplant curry"
+      ],
+      "dish_types": [
+        "eggplant curry",
+        "baingan bharta",
+        "tzok vangun"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "red chili powder",
+        "ginger powder",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/baingan-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "mushroom-masala",
+      "name": "Mushroom Masala",
+      "product_url": "https://www.mojimasala.com/products/mushroom-masala",
+      "aliases": [
+        "mushroom",
+        "mushrooms",
+        "mushroom curry"
+      ],
+      "dish_types": [
+        "mushroom curry"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black cardamom",
+        "green cardamom",
+        "white cumin seed",
+        "black cumin seed",
+        "coriander seed",
+        "cloves",
+        "cinnamon",
+        "black peppercorn",
+        "red chili powder",
+        "garlic powder",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "medium",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/mushroom-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "dahl-masala",
+      "name": "Dahl Masala",
+      "product_url": "https://www.mojimasala.com/products/dahl-masala",
+      "aliases": [
+        "dal",
+        "dahl",
+        "daal",
+        "lentils",
+        "lentil",
+        "lentil curry",
+        "lentil stew"
+      ],
+      "dish_types": [
+        "dal",
+        "lentils"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "cumin seed",
+        "coriander seed",
+        "red chili powder",
+        "black cardamom",
+        "turmeric powder",
+        "Himalayan Pink Salt"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": true,
+      "heat": "mild",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/dahl-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "kitchari-masala",
+      "name": "Kitchari Masala",
+      "product_url": "https://www.mojimasala.com/products/kitchari-masala",
+      "aliases": [
+        "kitchari",
+        "khichdi",
+        "kichdi",
+        "rice and lentils",
+        "rice and mung beans"
+      ],
+      "dish_types": [
+        "kitchari",
+        "rice and lentils"
+      ],
+      "blend_type": "dish_specific",
+      "ingredients": [
+        "black mustard seed",
+        "cumin seed",
+        "coriander seed",
+        "black peppercorn",
+        "bay leaf",
+        "cinnamon",
+        "turmeric powder"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "none",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/kitchari-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "kashmiri-garam-masala",
+      "name": "Kashmiri Garam Masala",
+      "product_url": "https://www.mojimasala.com/products/kashmiri-garam-masala",
+      "aliases": [
+        "garam masala",
+        "kashmiri garam masala",
+        "finishing spice",
+        "burger",
+        "burgers"
+      ],
+      "dish_types": [
+        "finishing spice",
+        "burger"
+      ],
+      "blend_type": "multi_use",
+      "ingredients": [
+        "cumin seed",
+        "black cardamom",
+        "green cardamom",
+        "black cumin seed",
+        "clove",
+        "cinnamon",
+        "black peppercorn"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "none",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/kashmiri-garam-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation."
+      ]
+    },
+    {
+      "id": "sweet-masala",
+      "name": "Sweet Masala",
+      "product_url": "https://www.mojimasala.com/products/sweet-masala",
+      "aliases": [
+        "sweet masala",
+        "chai",
+        "masala chai",
+        "spiced tea"
+      ],
+      "dish_types": [
+        "chai",
+        "dessert"
+      ],
+      "blend_type": "multi_use",
+      "ingredients": [
+        "fennel seed",
+        "coriander seed",
+        "allspice",
+        "cinnamon",
+        "cardamom",
+        "date powder",
+        "nutmeg powder",
+        "honey powder",
+        "vanilla powder",
+        "dried lavender",
+        "dried rose petal"
+      ],
+      "vegan": false,
+      "vegetarian": true,
+      "gluten_free": true,
+      "contains_added_salt": false,
+      "heat": "none",
+      "availability": "in_stock",
+      "source_urls": [
+        "https://www.mojimasala.com/products/sweet-masala",
+        "https://www.mojimasala.com/pages/about-moji-masala-indian-spice-blends",
+        "https://www.mojimasala.com/pages/ai-shopping-guide",
+        "https://www.mojimasala.com/pages/salt-and-sodium-guide"
+      ],
+      "notes": [
+        "Gluten-free is the brand's blend claim, not a guarantee that every prepared recipe or shared facility is allergen-free.",
+        "Availability is a public storefront snapshot, not a live inventory reservation.",
+        "Contains honey powder; vegetarian, not vegan, even when chai uses plant milk."
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "dahl-masala-recipe",
+      "product_id": "dahl-masala",
+      "title": "Dahl Masala (vegan serving)",
+      "url": "https://www.mojimasala.com/blogs/recipes/dahl-masala-recipe",
+      "servings": "4-5",
+      "total_minutes": 45,
+      "ingredients": [
+        "2 tablespoons vegetable oil",
+        "2 cloves of garlic, chopped",
+        "1 small yellow onion, diced",
+        "1 medium, ripe tomato, diced",
+        "1 packet Moji Masala Dahl Masala",
+        "1 cup red lentils, split mung bean or split chick pea lentil, rinsed thoroughly. (if using chick pea try to soak for an hour).",
+        "3 cups of water for red lentils, 4 cups water for mung bean, or 5 cups of water for split chick pea; for a milder, soupy texture add 30% more water and adjust salt and lemon at the end",
+        "1 tablespoon lemon juice",
+        "1 handful cilantro or parsley, for garnish",
+        "1.5 cups Indian basmati rice (prepare as instructed)*"
+      ],
+      "instructions": [
+        "Heat oil in a medium-size pot on medium-high heat. When the oil is hot, add the garlic and sauté until fragrant. Add the onion and sauté until light brown, about 4 minutes.",
+        "Add the tomato and sauté frequently for 3-4 minutes, until it releases all its water, softens, and breaks apart.",
+        "Add contents of MM Dahl Masala packet and mix well. Fry this mixture for a couple of minutes so spices are incorporated.",
+        "Stir the lentils into the tomato-masala mixture and add the water. Bring to a boil.",
+        "Turn heat to low, cover and cook until lentils soften. For mung bean or red lentils this should take about 30-35 minutes, for yellow split pea it may take 50 minutes to one hour. Stir regularly to prevent sticking and check that there is enough liquid to keep it soupy. If the lentils are still hard but your texture is too thick, simply add a half a cup of water at time to maintain the slightly thick but soupy texture while cooking.",
+        "Once your lentils are fully cooked, turn the heat to medium-high and bring the lentils to a gentle boil. Boil off enough water until you are left with the desired thickness.",
+        "Once your dahl is the right thickness, adjust the salt, add lemon juice, and garnish with cilantro.",
+        "Serve with Indian basmati rice."
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Published timing was clarified on November 18, 2026: the standard red-lentil recipe has 15 minutes preparation plus 30 minutes cooking (45 minutes total). Split chickpeas may need about 1 hour soaking; yellow split peas may need 50–60 minutes cooking. Those variants are not 45-minute meals.",
+        "Curation: standard recipe only; the separate optional fried-onion variation is not appended as a consecutive cooking step. Yogurt accompaniment is omitted for this vegan serving."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/dahl-masala-recipe",
+        "https://www.mojimasala.com/products/dahl-masala"
+      ],
+      "source_schema_sha256": "f957e99aa0299dea85537a6292041ae16b8976fa5255055e915d869a9edb6428"
+    },
+    {
+      "id": "potato-curry-aloo-rasedar",
+      "product_id": "aloo-rasedar-masala",
+      "title": "Aloo Rasedar (without optional yogurt)",
+      "url": "https://www.mojimasala.com/blogs/recipes/potato-curry-aloo-rasedar",
+      "servings": "3-4",
+      "total_minutes": 30,
+      "ingredients": [
+        "3 tablespoons vegetable oil",
+        "1 1/2 pounds potatoes, peeled and cut into 4-6 chunks",
+        "1 packet MM Aloo Rasedar Masala",
+        "1 teaspoon fine salt (NOT sea salt)",
+        "1 handful chopped cilantro (optional, for garnish)",
+        "1 cup Indian basmati rice (prepare as instructed)"
+      ],
+      "instructions": [
+        "Place medium size pot (7 to 8-inch base; use non-stick for ease) on medium-high heat and add oil to hot surface.",
+        "When oil is hot, add potatoes and saute until well browned on edges and light brown in the middle (about 6-8 minutes).",
+        "Take your pot off heat. Add a splash of water or two, just enough to wet the potatoes so the spices do not burn. Add the full packet of Aloo Rasedar Masala and salt to the potatoes and coat well.",
+        "Place pot on medium heat, add another splash of water and saute for about a minute so spices can cook a bit and open up. Be careful to keep potatoes from breaking as you saute.",
+        "Add 1 ¼ cup of water, stir a few times and bring to a boil. Turn heat to low and place lid on pot. Cook until potatoes are soft but not mushy, about 8-10 minutes. Check the potatoes half-way to ensure that they are not sticking to the bottom and there is enough liquid. Keep in mind, if your potatoes are smaller, they may cook faster. If the potatoes are hard but the mixture is dry, add ¼ cup of water so you can continue to cook them.",
+        "When the potatoes are fully cooked, remove lid, turn heat up to medium-high and cook off excess water so you are left with a slightly thicker, full flavored sauce. Adjust salt, if needed.",
+        "Serve with Indian basmati rice."
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Curation: source explicitly labels the yogurt condiment optional; omitted for vegan serving.",
+        "The spice blend has no added salt; the published recipe adds measured salt. A blend-level filter does not make the prepared dish salt-free."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/potato-curry-aloo-rasedar",
+        "https://www.mojimasala.com/products/aloo-rasedar-masala"
+      ],
+      "source_schema_sha256": "10336a35167b1635bc08166fdbb6a816de976c7514a9dfb93ec9a5600cc59953"
+    },
+    {
+      "id": "gobi-masala-in-under-45-minutes",
+      "product_id": "gobi-masala",
+      "title": "Gobi Masala Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/gobi-masala-in-under-45-minutes",
+      "servings": "4",
+      "total_minutes": 30,
+      "ingredients": [
+        "3 tablespoons vegetable oil",
+        "1 small yellow onion, diced",
+        "3 large cloves of garlic, chopped fine",
+        "1 large, ripe tomato, diced",
+        "1 teaspoon fine salt (NOT sea salt)",
+        "1 packet Moji Masala Gobi Masala",
+        "1 small head of cauliflower (approx. 1.5 lb.), cut into small florets or cabbage (about 2 lbs.), shredded.",
+        "2 tablespoons slivered almonds (optional)",
+        "1 handful Cilantro, for garnish (optional)"
+      ],
+      "instructions": [
+        "Place a wide-based saute pan or pot on medium-high heat. When the pan is hot, add the oil. Add the onion to hot oil and saute until light brown, approximately 4 minutes. Add the chopped garlic and saute until garlic is just fragrant, approximately 1 minute.",
+        "Add the tomato and saute continuously for about 4 minutes, until it releases all its water, softens, and breaks apart.",
+        "Add the salt and Gobi Masala to the tomato and blend well. Saute the mixture for about a minute, until you have a moist paste. Add a few splashes of water as needed to keep the mixture moist and your pan from burning.",
+        "Add the cauliflower or cabbage and coat with the tomato-onion-masala paste. Again, add a few splashes of water as needed to keep the mixture moist and your pan from burning.",
+        "Turn heat to medium. Add 1/3 cup of water, place lid on and cook for 5-7 minutes until the cauliflower or cabbage is tender with a slight crunch. If you microwaved your vegetable in advance, cook for about 5 minutes. Stir every couple of minutes to make sure the vegetable isn’t sticking to the pan. Add a bit of water if the mixture is dry.",
+        "Once your cauliflower or cabbage is cooked, add nuts and saute over medium-high heat again for a minute or so to evaporate off the excess water. Garnish with cilantro and mint"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Optional slivered almonds are included in the source ingredient list; do not describe this recipe as nut-free.",
+        "The published 30-minute total is an estimate; the source URL title also references under 45 minutes."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/gobi-masala-in-under-45-minutes",
+        "https://www.mojimasala.com/products/gobi-masala"
+      ],
+      "source_schema_sha256": "a518e2d118338c270be3496e8f707e5513ef9cf6abac2fe223d9f2bb34b76458"
+    },
+    {
+      "id": "palak-masala",
+      "product_id": "palak-masala",
+      "title": "Palak Masala (vegan spinach serving)",
+      "url": "https://www.mojimasala.com/blogs/recipes/palak-masala",
+      "servings": "2-3",
+      "total_minutes": 20,
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "3 cloves of garlic, chopped",
+        "1 packet MM Spinach Masala",
+        "1 pound fresh baby spinach",
+        "1/2 teaspoon fine salt (not sea salt)",
+        "1 lemon wedge (for garnish)"
+      ],
+      "instructions": [
+        "Blanch the spinach leaves until just wilted. Drain and squeeze out excess water with the back of a large spoon.",
+        "Place a medium size pot on medium heat. When the pan is hot, add olive oil. Add the garlic to the hot oil and sauté for one minute.",
+        "Add the Palak Masala and mix into the oil as evenly as possible for about 10-15 seconds, or until fragrant. Add a splash of water to prevent your spices from burning. If it smells like the spices are starting to burn, simply remove the pan from heat.",
+        "Add the spinach and salt. Sauté for about 2-3 minutes, until the spices are well incorporated.",
+        "Add ¼ cup of water, turn heat to low and cover. Cook for about 5 minutes.",
+        "Remove cover, turn heat to medium high and sauté until the excess water evaporates. Finish with lemon and salt, to taste. Serve with rice"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Curation: spinach-only recipe, without the yogurt serving accompaniment. The alternate quick saute instruction is not appended as a sequential step. No paneer or tofu substitution has been invented."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/palak-masala",
+        "https://www.mojimasala.com/products/palak-masala"
+      ],
+      "source_schema_sha256": "9d0cf61166a40894cc3bf7592b9300331d28a4267842a550084b8c3b6944f292"
+    },
+    {
+      "id": "mushroom-masala",
+      "product_id": "mushroom-masala",
+      "title": "Mushroom Masala Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/mushroom-masala",
+      "servings": "3-4",
+      "total_minutes": 30,
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "3 cloves of garlic, chopped",
+        "1 medium tomato, diced",
+        "1 pound white mushrooms, sliced",
+        "¾ teaspoon fine salt (not sea salt)",
+        "1 packet Moji Masala Mushroom Masala"
+      ],
+      "instructions": [
+        "Place a wide-based sauté pan on medium heat. When the pan is hot add the olive oil and sauté the garlic cloves for one minute.",
+        "Add the tomato and sauté, stirring continuously for about 4 minutes, until it releases all its water, softens, and breaks apart (see pic below).",
+        "Add the salt and the Mushroom Masala to the tomato, followed by 2 tablespoons of water, and blend well. Sauté the mixture for about a minute until you have a moist paste (see pics below).",
+        "Add the mushrooms and coat well with the tomato-masala paste.",
+        "Adjust the heat to medium-high. Sauté the mushrooms for about 10 minutes, stirring continuously until the water is released and they have softened. The water released from the mushrooms will help form the curry paste; add small amounts of water, if necessary to keep the masala paste moist."
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/mushroom-masala",
+        "https://www.mojimasala.com/products/mushroom-masala"
+      ],
+      "source_schema_sha256": "5e56265f7ac44493915485e22307692277ba987b16d4726cf571566d8bc7d9ca"
+    },
+    {
+      "id": "kitchari",
+      "product_id": "kitchari-masala",
+      "title": "Kitchari (source vegetable-oil option)",
+      "url": "https://www.mojimasala.com/blogs/recipes/kitchari",
+      "servings": "3-4",
+      "total_minutes": 40,
+      "ingredients": [
+        "½ cup basmati rice",
+        "½ cup split mung bean",
+        "1 tablespoon vegetable oil",
+        "1 packet Moji Masala Kitchari Masala",
+        "1 cup of vegetables of choice (optional)",
+        "1 teaspoon salt",
+        "3 cups of water (3.5 cups for a soupier consistency)"
+      ],
+      "instructions": [
+        "Place rice and mung beans in a mixing bowl and rinse 2-3 times, until water runs clear.",
+        "Place a medium size pot over medium heat. After one minute add oil followed by contents of MM Kitchari Masala packet. Stir for 10 seconds.",
+        "Add rice and bean mixture, vegetables and salt and stir until well-coated with masala mixture.",
+        "Add water, turn heat to medium-high and bring to a boil. Lower heat to medium-low and cover for 30 minutes, or until rice and beans are tender. Stir occasionally so the kitchari doesn’t stick to the bottom of the pan.",
+        "To Reheat Leftovers: Blend water in to thin out the Kitchari and reheat on low heat."
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Curation: choose the vegetable-oil alternative explicitly supplied by the source instead of ghee to keep this variant vegan."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/kitchari",
+        "https://www.mojimasala.com/products/kitchari-masala"
+      ],
+      "source_schema_sha256": "792cc9abf6705f97dce90e585b5237f2d0de8df3c29988f1a0fd582ec1818749"
+    },
+    {
+      "id": "baingan-bharta",
+      "product_id": "baingan-masala",
+      "title": "Baingan Bharta (without optional yogurt dip)",
+      "url": "https://www.mojimasala.com/blogs/recipes/baingan-bharta-tzok-vangun",
+      "servings": "3-4",
+      "total_minutes": null,
+      "ingredients": [
+        "2 lbs eggplant",
+        "3-4 garlic cloves",
+        "1/4 cup high-heat neutral",
+        "1 medium yellow onion, cut into long thin strips",
+        "14 oz. can whole peeled tomatoes",
+        "1¼ teaspoon salt",
+        "1 Packet Moji Masala® Baingan Masala",
+        "1-2 serrano chilis or jalapenos, chopped fine (deseeded for milder flavor)",
+        "2 tbsp lemon juice",
+        "1 bunch cilantro, with small stems, chopped"
+      ],
+      "instructions": [
+        "Pre heat oven to 450 or prepare your grill",
+        "Wash and dry eggplants; slit the eggplants in a couple of places and stuff in a garlic clove a bit deep so they don't burn; for small eggplants do one clove split in half and 3 for large eggplants; wrap each eggplant individually in foil",
+        "Bake about 1 hour or grill on open flame until skin breaks and is very easy to remove; when cool, scoop out eggplant and garlic cloves in a bowl and set aside",
+        "Place a pot on medium-high heat. When hot, add oil. When oil is hot, add onions and cook until golden-dark brown, taking care not to burn. A lot of flavor comes from the onion being well-browed.",
+        "Add tomato and fry a few minutes until the oil starts to separate and the tomato has broken apart, is dark red and soft.",
+        "Add salt followed by the full packet of Moji Masala Baingan Masala. Blend until well incorporated and bring to gentle boil so spices open up and are well integrated; the canned tomato should provide a good amount of liquid but if it has evaporated, add splashes of water as needed, to keep pan moist",
+        "Add cooked eggplant and sautee a few minutes to allow masala to aborb into the eggplant; add splashes of water as needed",
+        "Add the chilis and blend until well incorporated. Add a little water if needed. Turn heat to low and cook with lid on for about 5 minutes.",
+        "Off-heat, mix in lemon juice and garnish with a good handful of cilantro"
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Curation: first recipe on a page containing two distinct eggplant recipes; optional yogurt dip omitted.",
+        "Published timing was clarified on November 18, 2026: Bharta includes about 1 hour of eggplant roasting before preparation/cooling and pan cooking. The source omits an unknown totalTime, so this record must not pass a strict maximum-time filter."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/baingan-bharta-tzok-vangun",
+        "https://www.mojimasala.com/products/baingan-masala"
+      ],
+      "source_schema_sha256": "eb205b9f03f5bfe7218ab628169c0747ec0e7a2582058c359b3b4cb9762f37dd"
+    },
+    {
+      "id": "tzok-vangun",
+      "product_id": "baingan-masala",
+      "title": "Tzok Vangun (tamarind eggplant)",
+      "url": "https://www.mojimasala.com/blogs/recipes/baingan-bharta-tzok-vangun",
+      "servings": "3-4",
+      "total_minutes": null,
+      "ingredients": [
+        "1 lb baby eggplants, quartered lengthwise",
+        "1/4 cup high heat neutral oil",
+        "1 small yellow onion, cut into long thin strips",
+        "3 garlic cloves, minced",
+        "1/2 teaspoon fine salt (not sea salt)",
+        "1 packet moji masala Baingan Masala",
+        "1 tbsp tamarind concentrate or white vinegar"
+      ],
+      "instructions": [
+        "Pre heat oven to 450 or prepare your grill",
+        "Bake the quartered eggplants skin-side down for half an hour and then skin-side up for 10 minutes. The eggplant should be soft and wrinkled.",
+        "Place a pot on medium-high heat. When hot, add oil. When oil is hot, add onions and cook until golden-dark brown, taking care not to burn. A lot of flavor comes from the onion being well-browed.",
+        "Reduce heat to medium. Add the garlic and saute briefly untli fragrant.",
+        "Add a large splash of water. Add salt followed by the full packet of Moji Masala Baingan Masala. Saute for a minute allowing the spices to open up.",
+        "Add 1/2 cup of water and stir well. Add in the tamarind concentrate or vinegar and stir well again",
+        "Lay the the baked eggplant strips in the masala paste skin-side up. Stir gently until well coated. Increase heat to medium-high and bring to a boil.",
+        "Reduce heat to low, cover and simmer for 7-10 minutes or until eggplant is very soft and the masala paste has absorbed well into the egplant."
+      ],
+      "vegan": true,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Curation: second recipe on a page containing two distinct eggplant recipes; its separate quantities and steps are retained.",
+        "Published timing was clarified on November 18, 2026: Tzok Vangun bakes 30 minutes skin-side down plus 10 minutes skin-side up, then finishes in the pan. The source omits an unknown complete totalTime."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/baingan-bharta-tzok-vangun",
+        "https://www.mojimasala.com/products/baingan-masala"
+      ],
+      "source_schema_sha256": "eb205b9f03f5bfe7218ab628169c0747ec0e7a2582058c359b3b4cb9762f37dd"
+    },
+    {
+      "id": "chicken-curry-chicken-rasedar",
+      "product_id": "chicken-curry-masala",
+      "title": "Chicken Curry Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/chicken-curry-chicken-rasedar",
+      "servings": "3-4",
+      "total_minutes": 60,
+      "ingredients": [
+        "¼ cup high-heat neutral oil like canola or sunflower",
+        "1 medium yellow onion, chopped fine (about 1.5 cups)",
+        "1 medium ripe tomato, diced or 1/3 cup high-quality Italian tomato puree",
+        "1 ¼ teaspoon fine salt (NOT sea salt)",
+        "1 packet MM Chicken Rasedar Masala",
+        "2 lbs. bone-in chicken thighs or legs (approx. 5 thighs), skins removed",
+        "½ teaspoon Moji's Garam Masala (optional for deeper flavor)",
+        "½ teaspoon high-quality dried or one handful fresh mint, chopped fine (for garnish)",
+        "1.5 cups Thai jasmine or Indian basmati rice (prepare as instructed)"
+      ],
+      "instructions": [
+        "Place a medium-based pot on medium-high heat. When the pot is hot, add the oil. Add the onion to hot oil and sauté until mostly dark brown, approximately 6-8 minutes. Add a splash of water, cover immediately and take off heat. Let sit for thirty seconds.",
+        "Add the tomato and stir continuously for about 4 minutes, until it releases all its water, softens, and breaks apart. You should have a nice paste at this point. Add water as necessary to prevent it from drying out.",
+        "Add Salt and the MM Chicken Rasedar Masala packet. Add a little water (1/8 of a cup) and stir until well incorporated. Sautee 2-3 minutes until paste slightly thickens again.",
+        "Add the chicken cook each side about 3-4 minutes, adding water as necessary to prevent your masala base from burning. Your pot should remain slightly moist, but not watery. Move the chicken around from time to time so it doesn't stick to the bottom.",
+        "Add about 1 ¼ cup of water (enough to cover half the chicken) and scrape the bottom of the pot to remove and stuck bits of onion and tomato. Bring to a boil. Turn heat to low, cover and cook for about 25-30 minutes, until the chicken is fully cooked and tender. About half-way, turn chicken. Check occasionally, to make sure the chicken is not sticking to the bottom.",
+        "Turn heat back to medium-high. Reduce liquid for a couple of minutes until it thickens. Stir frequently so chicken does not stick to pan. Adjust salt, if needed. Turn heat off and stir in the garam masala and mint. You can adjust the flavor profile by sprinkling in a bit more garam masala – there is this moment where all the flavors balance just right.",
+        "Serve with rice and plain yogurt to cool the palate."
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": true,
+      "notes": [
+        "The spice blend itself is vegan; this published recipe contains chicken."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/chicken-curry-chicken-rasedar",
+        "https://www.mojimasala.com/products/chicken-curry-masala"
+      ],
+      "source_schema_sha256": "9a3dee42241274156ded306134daf5061ba823999e8b82e561c62e9f76999cef"
+    },
+    {
+      "id": "tandoori-style-chicken",
+      "product_id": "tandoori-chicken-masala",
+      "title": "Tandoori-Style Baked Chicken (bone-in recipe)",
+      "url": "https://www.mojimasala.com/blogs/recipes/tandoori-style-chicken",
+      "servings": "4-5",
+      "total_minutes": null,
+      "ingredients": [
+        "8 chicken thighs preferably bone-in, skin on, (approx. 3 lbs.)",
+        "¼ cup olive oil",
+        "2 tablespoons tomato paste",
+        "1 packet Moji Masala Tandoori-Style Chicken Masala"
+      ],
+      "instructions": [
+        "Puncture each piece of chicken with a fork a couple of times to allow the marinade to penetrate.",
+        "In a medium-to-large mixing bowl blend the olive oil and tomato paste. Add the contents of the masala packet and mix until you have a smooth even paste.",
+        "Add the chicken to the marinade piece by piece to coat evenly, ensuring the mixture gets under the skin (your hands are the best tools in the kitchen for this). Cover and refrigerate for up to 48 hours.",
+        "Preheat oven to 450 degrees. Line baking sheet with foil and grease with oil. Lay pieces touching side by side (the chicken stays juiciest when laid out without spacing). If using boneless, skinless, roll them in as if there were a bone so the thighs don't dry out. Cover loosely with a piece of foil.",
+        "Bake for 25 minutes, then remove cover and cook for about 20-25 more minutes, or until chicken is fully cooked with a nice slightly dark coat. The marinade should be dried out on top, but the chicken still juicy. If you use a meat thermometer, it should register close to 200 degrees. (Despite the high temperature, the marinade helps retain moisture, so the chicken does not dry out. Magic!)"
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": true,
+      "notes": [
+        "Curation: bone-in chicken recipe only. Separate tenderloin variation is not appended to the base recipe.",
+        "Published timing was clarified on November 18, 2026: 50 minutes oven cooking plus preparation and refrigerating/marinating for up to 48 hours. The source omits an unknown complete totalTime; this record must not pass a strict maximum-time filter."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/tandoori-style-chicken",
+        "https://www.mojimasala.com/products/tandoori-chicken-masala"
+      ],
+      "source_schema_sha256": "2f850c22b44c4852ebd75e5b7b03b84dbdbbba476e09b484ebecead2e375a379",
+      "cook_minutes": 50
+    },
+    {
+      "id": "rogan-josh",
+      "product_id": "rogan-josh-masala",
+      "title": "Authentic Kashmiri Rogan Josh Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/rogan-josh",
+      "servings": "3-5",
+      "total_minutes": null,
+      "ingredients": [
+        "½ cup full-fat plain yogurt. If using Greek yogurt, mix with 2 tablespoons of water to thin it out.",
+        "2 tablespoons olive oil (for the marinade)",
+        "1.5 tablespoons tomato paste (optional)",
+        "1 packet Moji Masala Rogan Josh Masala",
+        "3 pounds chicken thighs or lamb leg, cut into 1.5-inch pieces, well-trimmed",
+        "3 tablespoons high-heat neutral oil",
+        "2 large yellow onions, chopped fine",
+        "2 cups basmati rice (prepare as instructed)",
+        "*For a spicier version, add 1/2 teaspoon of Indian red chili powder or cayenne pepper into the marinade. Or add a dried red chili after adding the water in step 4."
+      ],
+      "instructions": [
+        "In a medium size mixing bowl combine yogurt, olive oil and tomato paste until fully incorporated. Add the contents of the Rogan Josh Masala packet. Mix until you have an even smooth paste.",
+        "Poke multiple holes in the meat with a fork to allow for maximum masala absorption. Add to yogurt mixture, in batches if necessary, making sure that all pieces are well-coated (your hands are the best tools in the kitchen for this).",
+        "Marinate 4-48 hours.",
+        "Heat high-heat neutral oil in a large pot or Dutch oven on medium-high heat. You will cook at this temperature for most of the time.",
+        "Add the onions and stir continuously until light brown (approximately 10-12 minutes, see pic below).",
+        "Add meat and stir continuously until a good amount of liquid is released. The water and natural fat from the meat and yogurt will form a fragrant curry which will slowly thicken as it cooks in the onion base. This process takes about ten minutes.",
+        "Add enough water such that half the meat is submerged and bring to a boil.",
+        "Turn heat to low, cover until meat cooks fully, about 45 minutes for chicken and 1 hour for lamb. Stir periodically to make sure the curry is not drying out and the meat is not sticking to the bottom of the pan.",
+        "Remove lid and turn heat back to medium-high. Reduce liquid so curry is slightly thick and not watery.",
+        "Serve with Indian basmati rice and yogurt to cool the palate."
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": true,
+      "notes": [
+        "Published timing was clarified on November 18, 2026: 15 minutes preparation plus 75 minutes cooking, and 4–48 hours marinating. The minimum elapsed time is 5 hours 30 minutes, also represented in Recipe JSON-LD.",
+        "A minimum is not a guaranteed complete total: total_minutes remains unknown for strict maximum-time matching because marinating duration varies.",
+        "Contains yogurt and meat; a vegan spice blend does not make this recipe vegan."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/rogan-josh",
+        "https://www.mojimasala.com/products/rogan-josh-masala"
+      ],
+      "source_schema_sha256": "c6235db6e8574ad7f16344d28e07125435a2e02ff981249295363a4b8bcb129c",
+      "minimum_total_minutes": 330,
+      "prep_minutes": 15,
+      "cook_minutes": 75,
+      "marinating_minutes_min": 240,
+      "marinating_minutes_max": 2880
+    },
+    {
+      "id": "masala-wings-hot-sauce",
+      "product_id": "chicken-wings-masala",
+      "title": "Chicken Wings Masala (hot-sauce marinade)",
+      "url": "https://www.mojimasala.com/blogs/recipes/masala-wings-recipe",
+      "servings": "4-6",
+      "total_minutes": 60,
+      "ingredients": [
+        "3 pounds chicken wings (drumettes and wingettes), patted dry; air-chilled is preferred.",
+        "1/2 cup of your favorite hot sauce. Use a medium heat level hot sauce to balance well with the masala. Cholula Original or Frank’s Red Hot Original both work well.",
+        "1 packet Moji Masala Chicken Wings Masala"
+      ],
+      "instructions": [
+        "In a medium-to-large size mixing bowl blend all ingredients (wet ones first) until well incorporated.",
+        "Add the chicken to the marinade in batches and coat evenly.",
+        "Use middle rack. Preheat oven to 450 degrees. Place a baking rack on a foil-lined baking sheet. Lay wings side-by-side but not touching. Cover loosely with a piece of foil.",
+        "Bake for 25 minutes, then remove cover and cook for about 20-25 more minutes, or until chicken is fully cooked with a dark brown, crispy, slightly blistering coat. You can opt to broil for the final 1-2 minutes with the oven door slightly ajar. Make sure to closely monitor the wings while broiling to ensure they don’t dry out or burn."
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": null,
+      "notes": [
+        "Curation: first of two alternative marinades; quantities are not combined.",
+        "Gluten-free status of the finished recipe depends on the selected hot sauce and is unverified.",
+        "Source total is 60 minutes, with actual baking stated as 45–50 minutes."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/masala-wings-recipe",
+        "https://www.mojimasala.com/products/chicken-wings-masala"
+      ],
+      "source_schema_sha256": "25d0f1f61fff951028a5abe583d072abeb7407d3e96218923e304abb03ebf6f4"
+    },
+    {
+      "id": "masala-wings-tomato",
+      "product_id": "chicken-wings-masala",
+      "title": "Chicken Wings Masala (tomato marinade)",
+      "url": "https://www.mojimasala.com/blogs/recipes/masala-wings-recipe",
+      "servings": "4-6",
+      "total_minutes": 60,
+      "ingredients": [
+        "3 pounds chicken wings (drumettes and wingettes), patted dry; air-chilled is preferred",
+        "1/4 cup olive oil",
+        "2 tablespoons tomato paste",
+        "3 tablespoons full-fat plain yogurt (optional)",
+        "1.5 teaspoons salt",
+        "1 packet Moji Masala Chicken Wings Masala"
+      ],
+      "instructions": [
+        "In a medium-to-large size mixing bowl blend all ingredients (wet ones first) until well incorporated.",
+        "Add the chicken to the marinade in batches and coat evenly.",
+        "Use middle rack. Preheat oven to 450 degrees. Place a baking rack on a foil-lined baking sheet. Lay wings side-by-side but not touching. Cover loosely with a piece of foil.",
+        "Bake for 25 minutes, then remove cover and cook for about 20-25 more minutes, or until chicken is fully cooked with a dark brown, crispy, slightly blistering coat. You can opt to broil for the final 1-2 minutes with the oven door slightly ajar. Make sure to closely monitor the wings while broiling to ensure they don’t dry out or burn."
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": true,
+      "notes": [
+        "Curation: second of two alternative marinades; quantities are not combined. Optional yogurt is retained as published.",
+        "Source total is 60 minutes, with actual baking stated as 45–50 minutes."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/masala-wings-recipe",
+        "https://www.mojimasala.com/products/chicken-wings-masala"
+      ],
+      "source_schema_sha256": "25d0f1f61fff951028a5abe583d072abeb7407d3e96218923e304abb03ebf6f4"
+    },
+    {
+      "id": "garam-masala-burger-recipe",
+      "product_id": "kashmiri-garam-masala",
+      "title": "Kashmiri Garam Masala Burger Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/garam-masala-burger-recipe",
+      "servings": "4",
+      "total_minutes": 30,
+      "ingredients": [
+        "1.5 lb. ground beef 80% lean",
+        "2.5 teaspoons Moji Masala Garam Masala",
+        "1.25 teaspoon fine salt (not sea salt)",
+        "2.5 teaspoon freshly minced garlic",
+        "1/2 teaspoon freshly minced ginger",
+        "3/4 cup cilantro or parsley leaves with small stems, chopped fine",
+        "1 small yellow or red onion, chopped fine",
+        "1 jalapeño pepper chopped fine, with seeds (use half seeds if you prefer less heat; retain outside for flavor)",
+        "4 buns, with melted butter toasted or grilled",
+        "Fixings of choice like cheese, lettuce, tomato, grilled onions"
+      ],
+      "instructions": [
+        "Set aside a bowl of warm water to dip your hand in when kneading and forming the patties",
+        "Place the meat in a medium-size mixing bowl and sprinkle the garam masala and salt evenly over the meat. Add the garlic and ginger and knead until ingredients are well incorporated.",
+        "Add the cilantro, onion and chilis and knead until all ingredients are fully and evenly incorporated and the meat is well-minced, about five minutes.",
+        "Divide meat into four 6 oz. pieces and shape into 3-inch diameter patties.",
+        "Place a greased cast iron pan on medium-high heat. If making cheeseburgers, preheat the oven to 350 degrees so can immediately transfer burgers.",
+        "When pan is hot, add patties. Cook 4-5 minutes on each side for cheeseburgers. Add 1-2 minutes for plain burgers.",
+        "Grill buns on medium heat, pressing down to get grill marks if desired.",
+        "For cheeseburgers add cheese to patties and transfer to preheated oven for 2 minutes.",
+        "Serve immediately with fixings of choice and pudina dhania chutney as a ketchup substitute. Recipe on blog'."
+      ],
+      "vegan": false,
+      "vegetarian": false,
+      "gluten_free": false,
+      "notes": [
+        "Uses a measured amount from the multi-use garam masala blend, not a whole packet.",
+        "Source recipe includes buns, butter, beef, and optional cheese."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/garam-masala-burger-recipe",
+        "https://www.mojimasala.com/products/kashmiri-garam-masala"
+      ],
+      "source_schema_sha256": "c25b1b4c26cf5a68cb4164b9679173bc80542f8faa5a212b1bfa0c4ac00387ed"
+    },
+    {
+      "id": "sweet-masala-chai-recipe",
+      "product_id": "sweet-masala",
+      "title": "Sweet Masala Chai Recipe",
+      "url": "https://www.mojimasala.com/blogs/recipes/sweet-masala-chai-recipe",
+      "servings": "2",
+      "total_minutes": 25,
+      "ingredients": [
+        "2 cups water",
+        "1–2 strong Assam tea bags (or 2 tsp loose Assam tea)",
+        "1 cup oat milk or whole milk",
+        "1 tsp moji masala® Sweet Masala",
+        "1–2 tsp sugar (optional)"
+      ],
+      "instructions": [
+        "Bring 2 cups water to a boil.",
+        "Add tea bags or loose tea and steep 15–20 minutes for a strong base.",
+        "In a separate pan, toast 1 tsp moji masala® Sweet Masala on medium heat for 10–20 seconds until fragrant.",
+        "Add milk to the toasted masala and warm gently.",
+        "Combine the brewed tea with the spiced milk mixture.",
+        "Bring to a boil. Let it rise once, reduce heat. Repeat once more.",
+        "Simmer until medium-dark brown. Strain if needed. Sweeten if desired. Serve hot."
+      ],
+      "vegan": false,
+      "vegetarian": true,
+      "gluten_free": true,
+      "notes": [
+        "Sweet Masala contains honey powder. Oat milk does not make this recipe vegan.",
+        "Uses a teaspoon from the multi-use Sweet Masala blend, not a whole packet."
+      ],
+      "source_urls": [
+        "https://www.mojimasala.com/blogs/recipes/sweet-masala-chai-recipe",
+        "https://www.mojimasala.com/products/sweet-masala"
+      ],
+      "source_schema_sha256": "f265033f64227258d1bedf6343176daa426f3fa8ee4a9d0ef773e739fd16fc59"
+    }
+  ]
+}
