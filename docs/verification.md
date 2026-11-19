@@ -1,6 +1,6 @@
 # Verification record
 
-Recorded November 18, 2026, in the local build environment. These results cover the checked-in demonstration and source snapshot. They do not measure consumer ChatGPT/Claude recommendations or commercial outcomes.
+Offline checks recorded November 18, 2026, in the local build environment; OpenAI live checks recorded November 19, 2026. These results cover the checked-in demonstration and source snapshot. They do not measure consumer ChatGPT/Claude recommendations or commercial outcomes.
 
 ## Observed results
 
@@ -13,7 +13,7 @@ Recorded November 18, 2026, in the local build environment. These results cover 
 | Installed wheel | Built and installed in a separate clean virtual environment; catalog validation and all 33 evaluation cases passed without provider SDKs. |
 | OpenAI CLI setup error | With `OPENAI_API_KEY` absent, the documented command returned a clear setup message and exit code 2. |
 | Claude CLI setup error | With `ANTHROPIC_API_KEY` absent, the documented command returned a clear setup message and exit code 2. |
-| OpenAI live attempt | Attempted November 18, 2026. The API returned HTTP 429, `credit_balance_exhausted` / `insufficient_quota`, before generating an answer. Successful live verification remains pending available API credits. |
+| OpenAI live API | Passed November 19, 2026: all three end-to-end smoke cases, using six real requests served by `gpt-6.2-sol`. The prior November 18 credit-balance error was resolved after credits were added. See [live results](live-verification.md). |
 
 The local environment used Python 3.9.6, pip 26.0.1, OpenAI SDK 2.48.0, and Anthropic SDK 0.125.0. The project supports environment-variable model overrides; these tests do not establish account access to a selected model.
 
@@ -32,9 +32,9 @@ Install `.[providers]` to include the official-SDK transport tests. The supplied
 
 ## Remaining verification
 
-An OpenAI live request was attempted after credentials became available, but the API stopped it for exhausted project credits. No model response, recipe lookup, or completed live case was obtained. The requested default model was `gpt-6.2-sol`; this failed request does not establish access to that model. No credential was saved to this repository. Claude remains untested against the live API because its key is unavailable.
+The OpenAI smoke checks have completed successfully. No credential was saved to this repository. Claude remains untested against the live API because its key is unavailable.
 
-Before a customer-facing release, complete the OpenAI and Claude examples with authorized credentials and available API credits, then review the retrieved records and final claims. Record date, actual model ID, tool arguments, tool results, source accuracy, and usage cost separately from the offline record. Planned smoke cases cover a vegan dal match, refusal to replace an individual spice with a packet, and refusal of an unsupported 30-minute tandoori total.
+Before a customer-facing release, complete the Claude example with authorized credentials, review its tool arguments and answers, and expand model-level evaluation beyond these three smoke cases. Record date, actual model ID, tool arguments, tool results, source accuracy, and usage cost separately from the offline record. The successful OpenAI cases cover a vegan dal match, refusal to replace an individual spice with a packet, and refusal of an unsupported 30-minute tandoori total.
 
 The Fish Masala cooking recipe remains excluded pending source timing/temperature review. The catalog contains its product record, but the demonstration does not invent a recipe for it. Availability is a dated snapshot, and the demo does not supply live prices or delivery promises.
 
