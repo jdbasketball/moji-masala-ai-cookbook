@@ -1,6 +1,13 @@
 # Official cookbook proposals
 
-Proposal bodies are prepared in [submissions/openai-proposal.md](submissions/openai-proposal.md) and [submissions/claude-proposal.md](submissions/claude-proposal.md). Submission receipts will be recorded here after posting. The Moji-owned demonstration works independently of any maintainer decision.
+Both proposals were submitted on November 19, 2026 (America/New_York), after the [reference repository](https://github.com/jdbasketball/moji-masala-ai-cookbook) became public. Both issues were verified open, with posted text matching the prepared bodies. They are awaiting maintainer review; neither has been accepted into an official cookbook. The Moji-owned demonstration works independently of any maintainer decision.
+
+| Destination | Submitted proposal | Exact submitted body | Status at submission |
+| --- | --- | --- | --- |
+| OpenAI Cookbook | [Feature proposal #3337](https://github.com/openai/openai-cookbook/issues/3337) | [OpenAI body](submissions/openai-proposal.md) | Open; requested maintainer routing to proposal review. |
+| Claude Cookbooks | [Cookbook proposal #984](https://github.com/anthropics/claude-cookbooks/issues/984) | [Claude body](submissions/claude-proposal.md) | Open; awaiting maintainer feedback. |
+
+No full tutorial pull request was submitted. Any invited implementation will follow that repository's review and licensing requirements.
 
 ## Shared educational proposal
 

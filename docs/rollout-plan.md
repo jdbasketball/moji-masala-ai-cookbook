@@ -4,7 +4,7 @@ Prepared November 18, 2026. Dates below are proposed work windows, not promises 
 
 The demo is the implementation asset for steps 2 and 3. Its dataset copies existing Moji website recipes and retains links to their source pages; running the demo does not add or edit website recipes. The other steps require account verification, distribution, and measurement. Completing the code does not complete those business activities.
 
-Status on November 19, 2026: the private GitHub demo is built, both provider examples passed three live smoke cases, and the maintained snapshot contains 14 blends and 15 recipe variants. Public release, developer adoption, official cookbook proposals, and consumer visibility measurement remain separate next steps.
+Status on November 19, 2026: the [GitHub demo](https://github.com/jdbasketball/moji-masala-ai-cookbook) is public, both provider examples passed three live smoke cases, and the maintained snapshot contains 14 blends and 15 recipe variants with reserved recipe rights and source links. The [OpenAI proposal](https://github.com/openai/openai-cookbook/issues/3337) and [Claude proposal](https://github.com/anthropics/claude-cookbooks/issues/984) are submitted and awaiting maintainer review. Developer adoption and consumer visibility measurement remain next steps; submission does not establish cookbook acceptance.
 
 | Step | Owner | Next actions | Evidence of completion |
 | --- | --- | --- | --- |
