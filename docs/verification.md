@@ -9,7 +9,8 @@ Initial offline checks recorded November 18, 2026; updated local checks and both
 | Catalog validation | Passed: 14 products, 15 recipe variants; catalog verification date `2026-11-18`. |
 | README offline example | Passed: the vegan lentil-dal request returned Dahl Masala, its source recipe, ingredients, method, documented time, and source notes. No AI model was called. |
 | Deterministic evaluation | 33/33 reference cases passed. This is a regression check, not an accuracy score for live model answers. |
-| Unit and transport suite | 55/55 tests passed, including two tests using the official provider SDKs with mocked HTTP responses and nine local key-storage tests. This suite makes no paid API requests. |
+| Unit and transport suite | 61/61 tests passed, including two tests using the official provider SDKs with mocked HTTP responses, nine local key-storage tests, and six baseline-comparison tests. This suite makes no paid API requests. |
+| Product-lookup comparison | Guarded matcher 33/33; alias-only lookup 11/33. Both pass all nine expected product matches. These are development regression fixtures, not held-out data or model accuracy. See [the method and limits](baseline-comparison.md). |
 | Installed wheel | Built and installed in a separate clean virtual environment; catalog validation and all 33 evaluation cases passed without provider SDKs. |
 | OpenAI CLI setup error | With `OPENAI_API_KEY` absent, the documented command returned a clear setup message and exit code 2. |
 | Claude CLI setup error | With `ANTHROPIC_API_KEY` absent, the documented command returned a clear setup message and exit code 2. |

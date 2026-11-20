@@ -1,6 +1,6 @@
-# Official cookbook proposal drafts
+# Official cookbook proposals
 
-These are preparation drafts. No proposal, issue, pull request, or external message has been submitted. The Moji-owned demonstration works independently of any maintainer decision.
+Proposal bodies are prepared in [submissions/openai-proposal.md](submissions/openai-proposal.md) and [submissions/claude-proposal.md](submissions/claude-proposal.md). Submission receipts will be recorded here after posting. The Moji-owned demonstration works independently of any maintainer decision.
 
 ## Shared educational proposal
 
@@ -12,7 +12,7 @@ These are preparation drafts. No proposal, issue, pull request, or external mess
 
 **Example data:** A small, transparently attributed catalog of Moji Masala blends and source recipes. Moji is the disclosed brand supplying the example data. The code can be adapted to another catalog with the same schema. Data rights and recipe attribution must remain explicit.
 
-**Differentiation:** Demonstrate the errors made by simple keyword matching, then show how explicit constraints and source provenance change the result. A basic product-search demonstration alone would overlap existing examples. Before submission, include real provider smoke results and an evaluated comparison; do not claim experiments that have not been run.
+**Differentiation:** Demonstrate the errors made by simple keyword matching, then show how explicit constraints and source provenance change the result. A basic product-search demonstration alone would overlap existing examples. Both provider integrations passed three real smoke cases. The [evaluated comparison](baseline-comparison.md) records 33/33 guarded matches versus 11/33 alias-only matches on the existing hand-authored regression fixtures. Both preserve nine expected product matches. These are developed-on examples, not held-out accuracy or consumer visibility measurements.
 
 **Proposed notebook outline:**
 
@@ -45,13 +45,13 @@ The Claude version should teach the Messages API tool-use/tool-result lifecycle 
 
 > This tutorial demonstrates a Claude recipe assistant that retrieves a product/recipe record through a client tool, checks explicit cooking constraints, and explains a supported match using source information. A transparent brand dataset makes the problem reproducible. Evaluations include spelling variants, missing facts, conflicting constraints, and requests for an individual spice that a blend cannot replace.
 
-## Before submitting
+## Submission preparation
 
-- Recheck the repositories' current rules and search for overlapping issues.
-- Obtain Moji's approval of the dataset, attribution, and reuse terms.
-- Run both live provider examples and review their output.
-- Complete the proposed comparison and record actual results.
-- Adapt the tutorial to the selected repository's notebook, dependency, testing, and author requirements.
-- Keep the official proposal focused on developer learning; link the full branded implementation as supporting material where appropriate.
+- The repositories' contribution rules and proposal templates were reviewed, and issue searches found no direct Moji or spice-matching duplicate.
+- Moji approved public release of the current 15 recipe variants with recipe rights reserved and source links retained. Original code is MIT; the recipe/catalog material is excluded from that grant.
+- Both live provider examples and the offline baseline comparison completed; see [verification](verification.md).
+- The proposals offer original synthetic or openly licensed fixtures for an official MIT tutorial, preserving the rights of the external Moji dataset.
+- If maintainers invite an implementation, adapt it to that repository's notebook, dependency, testing, and author requirements.
+- Keep the official proposal focused on developer learning; link the branded implementation as transparently attributed supporting material.
 
 Cookbook inclusion offers potential developer distribution. It does not train future models on demand or force Moji into consumer recommendations.

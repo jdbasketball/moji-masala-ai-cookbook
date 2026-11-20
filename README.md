@@ -73,7 +73,7 @@ The catalog is a dated snapshot, not a live inventory or pricing service. The as
 
 Walk through the [recipe-to-spice notebook](notebooks/recipe_to_spice.ipynb) for a GitHub-previewable introduction with key-free examples and optional provider calls. It uses your installed Python environment; Jupyter is only needed to run the notebook interactively.
 
-See [data provenance](data/README.md), the [verification record](docs/verification.md), [rollout plan](docs/rollout-plan.md), [measurement worksheet](docs/measurement.md), and [cookbook proposal drafts](docs/cookbook-proposals.md).
+See [data provenance](data/README.md), the [verification record](docs/verification.md), [rollout plan](docs/rollout-plan.md), [measurement worksheet](docs/measurement.md), and [cookbook proposals](docs/cookbook-proposals.md).
 
 ## Validation
 
@@ -85,7 +85,9 @@ python -m moji_demo evaluate
 
 The [GitHub Actions template](docs/github-actions/checks.yml) installs the optional SDKs and runs checks on Python 3.9 and 3.12 without provider secrets. It is supplied as a template because the publishing login lacks GitHub's `workflow` scope. An authorized owner can enable it by placing it at `.github/workflows/checks.yml`. Provider transport tests exercise the tool-call conversation without making paid API requests. The real-SDK transport tests are skipped if the SDK extras are absent in a local environment. These tests do not prove that a real provider account accepts the selected model or that a model's final wording is always accurate.
 
-On November 19, 2026, both provider examples passed all three live smoke cases: a sourced vegan dal match, refusal of a measured single-spice substitution, and refusal of an unsupported 30-minute tandoori total. OpenAI used `gpt-6.2-sol`; Claude used `claude-sonnet-5-5`. A focused Claude follow-up also verified clearer wording for unknown total times. These checks verify the recorded behaviors, not general model accuracy or consumer recommendations. The local suite passes 55 tests and all 33 catalog cases. See the [live check results](docs/live-verification.md) and [verification record](docs/verification.md).
+On November 19, 2026, both provider examples passed all three live smoke cases: a sourced vegan dal match, refusal of a measured single-spice substitution, and refusal of an unsupported 30-minute tandoori total. OpenAI used `gpt-6.2-sol`; Claude used `claude-sonnet-5-5`. A focused Claude follow-up also verified clearer wording for unknown total times. These checks verify the recorded behaviors, not general model accuracy or consumer recommendations. The local suite passes 61 tests and all 33 catalog cases. See the [live check results](docs/live-verification.md) and [verification record](docs/verification.md).
+
+On the same 33 hand-authored regression fixtures, an alias-only product lookup passes 11 cases and the guarded matcher passes 33. Both preserve all nine expected product matches; the difference comes from refusing or clarifying unsuitable requests. This is a developed-on fixture comparison, not held-out accuracy. See the [baseline method, results, and limits](docs/baseline-comparison.md).
 
 ## Distribution and outcomes
 
