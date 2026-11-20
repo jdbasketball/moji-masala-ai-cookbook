@@ -12,6 +12,8 @@ For an assisted local setup, run this in Terminal from the repository root:
 python3 scripts/configure_api_keys.py
 ```
 
-Paste each key at its hidden prompt. Press Enter to skip a provider. This makes no API calls and saves `.env.local` with owner-only permissions. Git ignores the file; the helper refuses to replace an existing file. In an assisted Codex session, report only that the file was saved, or share its path. Never put a key in chat, a screenshot, or a commit.
+Launch the command first. When a provider's hidden prompt appears, copy its full key using the provider's Copy button, paste it **once**, then press Enter. Hidden entry does not move the cursor or show characters; that is expected. Press Enter without pasting to skip a provider. An exact double paste of a provider-prefixed key is saved as one copy; the helper does not guess or repair other key values.
+
+This makes no API calls and saves `.env.local` with owner-only permissions. Git ignores the file; the helper refuses to replace an existing file. In an assisted Codex session, report only that the file was saved, or share its path. Never put a key in chat, a screenshot, or a commit.
 
 The examples read environment variables; they do not automatically execute or load `.env.local`. For standalone use, set `OPENAI_API_KEY` and `ANTHROPIC_API_KEY` using your preferred secret manager as described in the main README. Do not execute an untrusted configuration file as a shell script. The local helper is an optional handoff mechanism, not a hosted secret store.

@@ -12,6 +12,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DESTINATION = ROOT / ".env.local"
 KEY_NAMES = ("OPENAI_API_KEY", "ANTHROPIC_API_KEY")
+KEY_PREFIXES = {"OPENAI_API_KEY": "sk-", "ANTHROPIC_API_KEY": "sk-ant-"}
+
+
+def _normalize_double_paste(name: str, value: str) -> str:
+    """Collapse exactly two identical provider-prefixed copies, and nothing else."""
+    prefix = KEY_PREFIXES[name]
+    if len(value) % 2 == 0 and value.startswith(prefix) and value.count(prefix) == 2:
+        midpoint = len(value) // 2
+        if value[:midpoint] == value[midpoint:]:
+            return value[:midpoint]
+    return value
 
 
 def save_keys(destination: Path, keys: dict) -> None:
@@ -21,6 +32,7 @@ def save_keys(destination: Path, keys: dict) -> None:
     if any(not isinstance(value, str) or not re.fullmatch(r"[A-Za-z0-9_.-]+", value)
            for value in keys.values()):
         raise ValueError("A key contains unexpected characters. Copy the key itself, without quotes.")
+    keys = {name: _normalize_double_paste(name, value) for name, value in keys.items()}
     flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL | getattr(os, "O_NOFOLLOW", 0)
     fd = os.open(str(destination), flags, 0o600)
     with os.fdopen(fd, "w", encoding="utf-8") as output:
@@ -37,6 +49,8 @@ def main() -> int:
         print("A local key file already exists; it has not been changed: " + str(DESTINATION))
         return 0
     print("Enter the API keys when prompted. Input is hidden. Press Enter to skip a provider.")
+    print("Now copy the full key for the provider being prompted, paste it once, then press Enter.")
+    print("Hidden input does not move the cursor or show characters; do not paste it a second time.")
     print("This only saves keys on your Mac; it does not call either API or make a purchase.")
     keys = {}
     try:

@@ -4,6 +4,8 @@ Prepared November 18, 2026. Dates below are proposed work windows, not promises 
 
 The demo is the implementation asset for steps 2 and 3. Its dataset copies existing Moji website recipes and retains links to their source pages; running the demo does not add or edit website recipes. The other steps require account verification, distribution, and measurement. Completing the code does not complete those business activities.
 
+Status on November 19, 2026: the private GitHub demo is built, both provider examples passed three live smoke cases, and the maintained snapshot contains 14 blends and 15 recipe variants. Public release, developer adoption, official cookbook proposals, and consumer visibility measurement remain separate next steps.
+
 | Step | Owner | Next actions | Evidence of completion |
 | --- | --- | --- | --- |
 | 1. Verify commerce distribution | Moji account owner with developer support | Inspect current Shopify/ChatGPT channel state, catalog coverage, product URLs, variants, and prices. Check whether the eligible Moji business is already claimed in Business Hub; follow its verification flow if needed. Fix demonstrated catalog errors before adding another feed. | Dated catalog report; correct product links and offer details; account claim state recorded separately from recommendation results. |
